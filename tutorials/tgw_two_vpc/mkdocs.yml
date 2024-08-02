@@ -1,0 +1,42 @@
+site_name: Transit Gateway Basic Tutorial
+theme:
+  name: material
+  features:
+    - content.code.annotation
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.path
+    - toc.follow
+  language: en
+  palette:
+    - scheme: default
+      primary: purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      
+markdown_extensions: 
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
